@@ -1,4 +1,4 @@
-<h1>Easy to use</h1>
+<h1 class="head1">Easy to use</h1>
 
 
 <!-- START THE FEATURETTES -->
@@ -9,7 +9,7 @@
 
 <div class="row featurette">
   <div class="col-md-7">
-    <h2 class="featurette-heading">STEP ONE</h2>
+    <h2 class="featurette-heading head2">STEP ONE</h2>
     <br>
     <p class="font">
     You should make a budget that is best for you. Make different categories for each item you want to budget for. Ex: vaction, house, rent, savings. 
@@ -43,7 +43,7 @@
 
 <div class="row featurette">
   <div class="col-md-7 order-md-2">
-    <h2 class="featurette-heading">STEP TWO</h2>
+    <h2 class="featurette-heading head2">STEP TWO</h2>
     <br>
     <p class="font">Create a savings account where you can manually add how much you want to save and add funds every day, week, or month.
       <br>
@@ -70,7 +70,7 @@
 
 <div class="row featurette">
   <div class="col-md-7">
-    <h2 class="featurette-heading">STEP THREE</h2>
+    <h2 class="featurette-heading head2">STEP THREE</h2>
     <br>
     <p class="font">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content. Fill in payment details and due dates for recurring bills. And if you're paying off debt, the app will keep track of your interest and payments to keep your balance accurate.
       <br>

@@ -736,11 +736,11 @@ textarea {
 --------------------------------------------- */
 /* Body Section
 --------------------------------------------- */
-h1 {
+.head1 {
   text-align: center;
 }
 
-h2 {
+.head2 {
   padding: 10px;
   margin-left: 30px;
 }

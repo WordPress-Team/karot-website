@@ -694,7 +694,6 @@ textarea {
 .post-navigation .nav-next {
   text-align: end;
   flex: 1 0 50%;
-
 }
 
 /*Footer
@@ -728,17 +727,16 @@ textarea {
   height: 75px;
 }
 
-h2 {
+.hhead2 {
   font-size: 3vw;
 }
 
-p {
+.prag2 {
   font-size: 1.5vw;
   text-align: center;
 }
 
 .footer {
-  position: fixed;
   height: 100px;
   left: 0;
   bottom: 0;
@@ -815,12 +813,12 @@ p {
   transform: scale(1.05);
 }
 
-div, a {
+.cont {
   text-decoration: none;
   color: white;
 }
 
-a:hover {
+.cont:hover {
   color: #a3a0a0;
 }
 
@@ -843,6 +841,8 @@ a:hover {
   -webkit-transform: scale(1.5);
   /* Safari 3-8 */
   transform: scale(1.05);
+}
+
 /* Posts and pages
 --------------------------------------------- */
 .sticky {
@@ -877,7 +877,6 @@ a:hover {
 
 .bypostauthor {
   display: block;
-
 }
 
 /* Home Section

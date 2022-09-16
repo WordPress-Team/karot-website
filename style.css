@@ -694,6 +694,7 @@ textarea {
 .post-navigation .nav-next {
   text-align: end;
   flex: 1 0 50%;
+
 }
 
 /*Footer
@@ -842,8 +843,6 @@ a:hover {
   -webkit-transform: scale(1.5);
   /* Safari 3-8 */
   transform: scale(1.05);
-}
-
 /* Posts and pages
 --------------------------------------------- */
 .sticky {
@@ -878,8 +877,711 @@ a:hover {
 
 .bypostauthor {
   display: block;
+
 }
 
+/* Home Section
+--------------------------------------------- */
+/* Body Section
+--------------------------------------------- */
+.head1 {
+  text-align: center;
+}
+
+.head2 {
+  padding: 10px;
+  margin-left: 30px;
+}
+
+.te {
+  text-align: center;
+  color: #f1f1f1;
+  font-size: 2vw;
+  padding: 10px;
+}
+
+/* font-family: 'Sarabun */
+/* Featurettes
+------------------------- */
+.featurette-divider {
+  margin: 5rem 0;
+  /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: bold;
+  padding: 20px;
+  line-height: 1;
+  font-size: 2.1vw;
+  /* rtl:remove */
+  letter-spacing: -0.05rem;
+}
+
+.lead {
+  padding: 20px;
+}
+
+.font {
+  font-size: 1.5vw;
+  margin-left: 50px;
+}
+
+/* Phone start */
+/* The device with borders */
+.smartphone {
+  position: relative;
+  width: 18.8vw;
+  height: 640px;
+  margin: auto;
+  border: 16px black solid;
+  border-top-width: 60px;
+  border-bottom-width: 60px;
+  border-radius: 36px;
+}
+
+/* The horizontal line on the top of the device */
+/* .smartphone:before {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 5px;
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #333;
+  border-radius: 10px;
+} */
+/* The circle on the bottom of the device */
+.smartphone:after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 5px;
+  position: absolute;
+  left: 50%;
+  bottom: 2px;
+  transform: translate(-50%, -50%);
+  background: black;
+  border-radius: 10px;
+}
+
+/* The screen (or content) of the device */
+.smartphone .content {
+  width: 30.1vw;
+  height: 27.1vw;
+  background-image: url("./evygQYj.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.back {
+  z-index: -1;
+  width: 40vw;
+  height: 500px;
+  float: right;
+  margin-top: 70px;
+  border-radius: 2%;
+}
+
+/* Testimonials Start */
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  /* width: 1000px; */
+  background: linear-gradient(-13deg, #815dc7, #3981b5);
+  /* margin-left: 400px; */
+  align-items: center;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 30px;
+  text-align: center;
+  font-size: 30px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(239, 236, 236, 0.8);
+  color: black;
+  border-radius: 50%;
+}
+
+/* The dot/bullet/indicator container */
+/* .dot-container {
+    text-align: center;
+    padding: 20px;
+    width: 1000px;
+    margin-left: 400px;
+    background: linear-gradient(to left, rgb(90, 58, 247), rgb(96, 96, 248), rgb(27, 27, 27));
+  } */
+/* The dots/bullets/indicators */
+/* .dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgb(49, 34, 255);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+} */
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #131313;
+}
+
+/* Add an italic font style to all quotes font-style: italic;*/
+q {
+  font-size: 45px;
+  font-style: italic;
+  font-weight: bold;
+  background: repeating-linear-gradient(-40deg, #5481fa 5.1%, #e428f9 10.15%, #d40268 15.25%);
+  -webkit-background-size: 500vw 500vw;
+  background-size: 500vw 500vw;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: animate 9s linear infinite forwards;
+}
+
+@keyframes animate {
+  0% {
+    background-position-x: 0%;
+  }
+  100% {
+    background-position-x: 500vw;
+  }
+}
+/* Add a blue color to the author */
+.author {
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 500;
+  background: repeating-linear-gradient(-40deg, #5481fa 5.1%, #e428f9 10.15%, #d40268 15.25%);
+  -webkit-background-size: 500vw 500vw;
+  background-size: 500vw 500vw;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: animate 9s linear infinite forwards;
+}
+
+@keyframes animate {
+  0% {
+    background-position-x: 0%;
+  }
+  100% {
+    background-position-x: 500vw;
+  }
+}
+/* profile img */
+.wrap {
+  min-height: 12vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.boxes {
+  background: url("pexels-felix-mittermeier-956999.jpg");
+  box-shadow: insert 0 50px #141414, insert 2px -15px 30px #0c0c0c 2px 2px 5px #141414;
+  padding: 30px;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 20px;
+  transition: all 0.5s ease;
+}
+
+.boxes img {
+  width: 17vw;
+  border-radius: 50%;
+  height: 18vw;
+}
+
+.boxes:hover {
+  transform: scale(1.1);
+}
+
+.card-text {
+  font-size: 20px;
+  text-align: left;
+}
+
+.card-title {
+  text-align: left;
+}
+
+.imgs {
+  border-radius: 50%;
+  width: 25vh;
+}
+
+.card {
+  padding: 20px;
+}
+
+.e {
+  background-color: #f1f1f1;
+  border-radius: 50%;
+  opacity: 0.9;
+}
+
+/* Button */
+.button {
+  background-color: #0d6efd;
+  border: none;
+  color: #fbf8f8;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.button:hover {
+  background-color: #5794f0;
+}
+
+/* Modal Style Start */
+/*
+      ####################################################
+      M E D I A  Q U E R I E S
+      ####################################################
+      */
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+/* 
+Extra small devices (portrait phones, less than 576px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+/* Small devices (landscape phones, 480px and up) */
+@media (min-width: 360px) {
+  /* For header */
+  .featurette-heading {
+    font-weight: bold;
+    padding: 20px;
+    line-height: 1;
+    font-size: 4vw;
+    /* rtl:remove */
+    letter-spacing: -0.05rem;
+  }
+
+  /* For paragraph */
+  .font {
+    font-size: 3.2vw;
+    margin-left: 50px;
+  }
+
+  /* Gradient back */
+  .back {
+    z-index: -1;
+    width: 78vw;
+    height: 300px;
+    float: right;
+    margin-top: 70px;
+    border-radius: 2%;
+  }
+
+  /* Phone Box Start */
+  .smartphone {
+    position: relative;
+    width: 45.9vw;
+    height: 105vw;
+    margin: auto;
+    border: 12px black solid;
+    border-top-width: 11px;
+    border-bottom-width: 8px;
+    border-radius: 29px;
+  }
+
+  /* Phone Content Start 1-3*/
+  .smartphone .content1 {
+    width: 40.7vw;
+    height: 100vw;
+    background-image: url("#");
+    background-repeat: no-repeat;
+    background-size: 16vh, center;
+    background-position: center;
+    border-radius: 20px;
+  }
+
+  /* Phone Content Start 2-3*/
+  .smartphone .content2 {
+    width: 40.8vw;
+    height: 94.9vw;
+    background-image: url("#");
+    background-repeat: no-repeat;
+    background-size: 16vh, center;
+    background-position: center;
+    border-radius: 20px;
+  }
+
+  /* Phone Content Start 3-3*/
+  .smartphone .content3 {
+    width: 40.8vw;
+    height: 94.9vw;
+    background-image: url("#");
+    background-repeat: no-repeat;
+    background-size: 16vh, center;
+    background-position: center;
+    border-radius: 20px;
+  }
+
+  .te {
+    text-align: center;
+    color: #f1f1f1;
+    font-size: 4vw;
+    padding: 10px;
+  }
+}
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  /* For header */
+  .featurette-heading {
+    font-weight: bold;
+    padding: 20px;
+    line-height: 1;
+    font-size: 2.8vw;
+    /* rtl:remove */
+    letter-spacing: -0.05rem;
+  }
+
+  /* For paragraph */
+  .font {
+    font-size: 2.3vw;
+    margin-left: 50px;
+  }
+
+  /* Gradient back */
+  .back {
+    z-index: -1;
+    width: 40vw;
+    height: 270px;
+    float: right;
+    margin-top: 50px;
+    border-radius: 2%;
+  }
+
+  /* Phone Box Start */
+  .smartphone {
+    position: relative;
+    width: 28.9vw;
+    height: 62.9vw;
+    margin: auto;
+    border: 12px black solid;
+    border-top-width: 11px;
+    border-bottom-width: 8px;
+    border-radius: 29px;
+  }
+
+  /* Phone Content Start 1-3*/
+  .smartphone .content1 {
+    width: 28.9vw;
+    height: 62.9vw;
+    background-image: url("#");
+    background-repeat: no-repeat;
+    background-size: 16vh, center;
+    background-position: center;
+    border-radius: 20px;
+  }
+
+  /* Phone Content Start 2-3*/
+  .smartphone .content2 {
+    width: 22.7vw;
+    height: 48.9vw;
+    background-image: url("#");
+    background-repeat: no-repeat;
+    background-size: 16vh, center;
+    background-position: center;
+    border-radius: 20px;
+  }
+
+  /* Phone Content Start 3-3*/
+  .smartphone .content3 {
+    width: 22.7vw;
+    height: 49.9vw;
+    background-image: url("#");
+    background-repeat: no-repeat;
+    background-size: 16vh, center;
+    background-position: center;
+    border-radius: 20px;
+  }
+
+  .te {
+    text-align: center;
+    color: #f1f1f1;
+    font-size: 3vw;
+    padding: 10px;
+  }
+}
+/* Large devices (desktops, 960px and up) */
+@media (min-width: 960px) {
+  .featurette-heading {
+    font-weight: bold;
+    padding: 20px;
+    line-height: 1;
+    font-size: 2.3vw;
+    /* rtl:remove */
+    letter-spacing: -0.05rem;
+  }
+
+  /* For paragraph */
+  .font {
+    font-size: 1.9vw;
+    margin-left: 50px;
+  }
+
+  /* Gradient back */
+  .back {
+    z-index: -1;
+    width: 42vw;
+    height: 250px;
+    float: right;
+    margin-top: 70px;
+    border-radius: 2%;
+  }
+
+  /* Phone Box Start */
+  .smartphone {
+    position: relative;
+    width: 25vw;
+    height: 45vw;
+    margin: auto;
+    border: 12px black solid;
+    border-top-width: 11px;
+    border-bottom-width: 8px;
+    border-radius: 29px;
+  }
+
+  /* Phone Content Start 1-3*/
+  .smartphone .content1 {
+    width: 15.5vw;
+    height: 34.9vw;
+    background-image: url("#");
+    background-repeat: no-repeat;
+    background-size: 16vh, center;
+    background-position: center;
+    border-radius: 20px;
+  }
+
+  /* Phone Content Start 2-3*/
+  .smartphone .content2 {
+    width: 15.5vw;
+    height: 34.9vw;
+    background-image: url("#");
+    background-repeat: no-repeat;
+    background-size: 16vh, center;
+    background-position: center;
+    border-radius: 20px;
+  }
+
+  /* Phone Content Start 3-3*/
+  .smartphone .content3 {
+    width: 15.5vw;
+    height: 34.9vw;
+    background-image: url("#");
+    background-repeat: no-repeat;
+    background-size: 16vh, center;
+    background-position: center;
+    border-radius: 20px;
+  }
+
+  .te {
+    text-align: center;
+    color: #f1f1f1;
+    font-size: 3vw;
+    padding: 10px;
+  }
+}
+/* Extra large devices (large desktops, 1240px and up) */
+@media (min-width: 1240px) {
+  .featurette-heading {
+    font-weight: bold;
+    padding: 20px;
+    line-height: 1;
+    font-size: 2vw;
+    /* rtl:remove */
+    letter-spacing: -0.05rem;
+  }
+
+  /* For paragraph */
+  .font {
+    font-size: 1.5vw;
+    margin-left: 50px;
+  }
+
+  /* Gradient back */
+  .back {
+    z-index: -1;
+    width: 42vw;
+    height: 320px;
+    float: right;
+    margin-top: 60px;
+    border-radius: 2%;
+  }
+
+  /* Phone Box Start */
+  .smartphone {
+    position: relative;
+    width: 17.9vw;
+    height: 37vw;
+    margin: auto;
+    border: 12px black solid;
+    border-top-width: 11px;
+    border-bottom-width: 8px;
+    border-radius: 29px;
+  }
+
+  /* Phone Content Start 1-3*/
+  .smartphone .content1 {
+    width: 15.9vw;
+    height: 33.8vw;
+    background-image: url("#");
+    background-repeat: no-repeat;
+    background-size: 16vh, center;
+    background-position: center;
+    border-radius: 20px;
+  }
+
+  /* Phone Content Start 2-3*/
+  .smartphone .content2 {
+    width: 15.9vw;
+    height: 33.8vw;
+    background-image: url("#");
+    background-repeat: no-repeat;
+    background-size: 16vh, center;
+    background-position: center;
+    border-radius: 20px;
+  }
+
+  /* Phone Content Start 3-3*/
+  .smartphone .content3 {
+    width: 15.9vw;
+    height: 35.5vw;
+    background-image: url("#");
+    background-repeat: no-repeat;
+    background-size: 16vh, center;
+    background-position: center;
+    border-radius: 20px;
+  }
+
+  .te {
+    text-align: center;
+    color: #f1f1f1;
+    font-size: 2vw;
+    padding: 10px;
+  }
+}
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+/* Set width to make card deck cards 100% width */
+@media (min-width: 1380px) {
+  /* For laptop 1387px */
+  /* max-width: 2073600px for 55in monitor*/
+  .featurette-heading {
+    font-weight: bold;
+    padding: 20px;
+    line-height: 1;
+    font-size: 2vw;
+    /* rtl:remove*/
+    letter-spacing: -0.05rem;
+  }
+
+  /* For paragraph */
+  .font {
+    font-size: 1.5vw;
+    margin-left: 50px;
+  }
+
+  /* Gradient back */
+  .back {
+    z-index: -1;
+    width: 40vw;
+    height: 355px;
+    float: right;
+    margin-top: 60px;
+    border-radius: 2%;
+  }
+
+  /* Phone Box Start */
+  .smartphone {
+    position: relative;
+    width: 17.9vw;
+    height: 37.3vw;
+    margin: auto;
+    border: 12px black solid;
+    border-top-width: 11px;
+    border-bottom-width: 8px;
+    border-radius: 29px;
+  }
+
+  /* Phone Content Start 1-3*/
+  .smartphone .content1 {
+    width: 16vw;
+    height: 36vw;
+    background-image: url("#");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 39vh;
+    border-radius: 20px;
+  }
+
+  /* Add buttons on the side */
+  /* Phone Content Start 2-3*/
+  .smartphone .content2 {
+    width: 16vw;
+    height: 36vw;
+    background-image: url("#");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 340vh;
+    border-radius: 20px;
+  }
+
+  /* Phone Content Start 3-3*/
+  .smartphone .content3 {
+    width: 16vw;
+    height: 36vw;
+    background-image: url("#");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 39vh;
+    border-radius: 20px;
+  }
+}
 /* Widgets
 --------------------------------------------- */
 .widget {

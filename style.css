@@ -882,6 +882,949 @@ a:hover {
 
 /* Home Section
 --------------------------------------------- */
+/* nav css starts here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.karotLogo-img {
+  margin-top: 18px;
+  margin-left: 41px;
+  border-radius: 16px;
+}
+
+.logo-text-box {
+  margin-left: 41px;
+  padding-top: 20px;
+}
+
+.logo-text-box h1 {
+  height: 21px;
+  width: 190px;
+  border-radius: nullpx;
+  /* font-family: Sukhumvit Set; */
+  font-size: 67px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 8.3px;
+  text-align: left;
+}
+
+.logo-text-box p {
+  height: 21px;
+  width: 218px;
+  margin-top: 20px;
+  border-radius: nullpx;
+  font-family: Sukhumvit Set;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 21px;
+  letter-spacing: 8.3px;
+  text-align: center;
+}
+
+.logo-text-box a {
+  text-decoration: none;
+  color: #000000;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: relative;
+  bottom: 70px;
+}
+
+nav ul li {
+  list-style-type: none;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  height: 21px;
+  font-family: Sarabun;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.getApp {
+  height: 35px;
+  width: 154px;
+  font-family: Sarabun;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 6px;
+  text-align: center;
+  border-radius: 12px;
+  background: #016eea;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul a {
+  text-decoration: none;
+  z-index: 1;
+}
+
+/* nav css ends here */
+/* hero css starts here */
+.hero-wrapper {
+  display: flex;
+}
+
+.hero-content-box {
+  width: 628px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-content-box h1 {
+  height: 110px;
+  width: 458px;
+  margin-top: 230px;
+  margin-left: 58px;
+  border-radius: nullpx;
+  font-family: Arial;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 55px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.hero-content-box p {
+  height: 84px;
+  width: 478px;
+  margin-top: 43px;
+  margin-left: 48px;
+  margin-right: 104px;
+  border-radius: nullpx;
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.button-box {
+  margin: 56px 46px 0px 30px;
+}
+
+.button1 {
+  margin-right: 30px;
+  height: 72px;
+  width: 235px;
+  border-radius: 29px;
+  background: linear-gradient(141.16deg, #2383C9 7.97%, #5A1E70 138.18%);
+  font-family: Raleway;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 42px;
+  letter-spacing: 0.081em;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.button2 {
+  height: 72px;
+  width: 235px;
+  left: 0px;
+  top: 5px;
+  border-radius: 29px;
+  font-family: Raleway;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 42px;
+  letter-spacing: 0.081em;
+  text-align: center;
+  background-color: #ffffff;
+  border: 1px solid #2383c9;
+  color: linear-gradient(141.16deg, #112736 7.97%, #AE47D2 138.18%);
+  cursor: pointer;
+}
+
+.navbarbg-box img {
+  height: 747px;
+  width: 890px;
+  border-radius: 20px 0 0 20px;
+  position: absolute;
+  top: 32px;
+}
+
+/* banner css here */
+.banner {
+  height: 85px;
+  width: 100%;
+  left: 0px;
+  margin-top: 150px;
+  border-radius: 0px;
+  background: #9794CC;
+}
+
+.banner h1 {
+  margin-left: 30px;
+}
+
+.rating-stars {
+  display: inline-block;
+  margin-left: 100px;
+}
+
+/* hero css ends here */
+/* Media queries */
+/* header */
+/* hero section media queries starts here :1st breakpoint */
+@media (max-width: 480px) {
+  .dropbtn {
+    background-color: #ffffff;
+    color: #197eeb;
+    padding: 16px;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #ffffff;
+  }
+
+  .dropdown {
+    float: left;
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 125px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    line-height: 0;
+    z-index: 999;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown a:hover {
+    background-color: #ddd;
+  }
+
+  .show {
+    display: block;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 125px;
+  }
+
+  .karotLogo-img {
+    margin-top: 18px;
+    margin-left: 41px;
+    border-radius: 16px;
+  }
+
+  .logo-text-box {
+    margin-left: 41px;
+    padding-top: 20px;
+  }
+
+  .logo-text-box h1 {
+    height: 21px;
+    width: 190px;
+    border-radius: nullpx;
+    /* font-family: Sukhumvit Set; */
+    font-size: 67px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 8.3px;
+    text-align: left;
+  }
+
+  .logo-text-box p {
+    height: 21px;
+    width: 218px;
+    margin-top: 20px;
+    border-radius: nullpx;
+    font-family: Sukhumvit Set;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 8.3px;
+    text-align: center;
+  }
+
+  .logo-text-box a {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: relative;
+    bottom: 140px;
+  }
+
+  nav ul li {
+    list-style-type: none;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    height: 21px;
+    font-family: Sarabun;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    color: #ffffff;
+    text-align: center;
+    display: none;
+  }
+
+  .getApp {
+    height: 35px;
+    width: 154px;
+    font-family: Sarabun;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 6px;
+    text-align: center;
+    border-radius: 12px;
+    background: #016eea;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+
+  .hero-wrapper {
+    min-height: 1070px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .hero-content-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .hero-content-box h1 {
+    margin: 10px;
+  }
+
+  .hero-content-box p {
+    margin: 5px;
+    text-align: justify;
+    padding: 10px;
+  }
+
+  .button-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button1 {
+    margin: 5px;
+  }
+
+  .button2 {
+    margin: 5px;
+  }
+
+  .navbarbg-box {
+    width: 100%;
+  }
+
+  .navbarbg-box img {
+    width: 95%;
+    height: 747px;
+    margin-top: 40px;
+    border-radius: 20px 0 0 20px;
+    position: absolute;
+    top: 630px;
+    left: 10px;
+  }
+
+  .banner {
+    height: 108px;
+  }
+
+  .banner h1 {
+    margin: 0px;
+    padding: 8px;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .dropbtn {
+    background-color: #ffffff;
+    color: #197eeb;
+    padding: 16px;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #ffffff;
+  }
+
+  .dropdown {
+    float: left;
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 125px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    line-height: 0;
+    background: transparent;
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+
+  .dropdown a:hover {
+    background-color: #ddd;
+  }
+
+  .show {
+    display: block;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .karotLogo-img {
+    margin-top: 18px;
+    margin-left: 41px;
+    border-radius: 16px;
+  }
+
+  .logo-text-box {
+    margin-left: 41px;
+    padding-top: 20px;
+  }
+
+  .logo-text-box h1 {
+    height: 21px;
+    width: 190px;
+    border-radius: nullpx;
+    /* font-family: Sukhumvit Set; */
+    font-size: 67px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 8.3px;
+    text-align: left;
+  }
+
+  .logo-text-box p {
+    height: 21px;
+    width: 218px;
+    margin-top: 20px;
+    border-radius: nullpx;
+    font-family: Sukhumvit Set;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 8.3px;
+    text-align: center;
+  }
+
+  .logo-text-box a {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: relative;
+    bottom: 140px;
+  }
+
+  nav ul li {
+    list-style-type: none;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    height: 21px;
+    font-family: Sarabun;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    color: #ffffff;
+    text-align: center;
+    display: none;
+  }
+
+  .getApp {
+    height: 35px;
+    width: 154px;
+    font-family: Sarabun;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 6px;
+    text-align: center;
+    border-radius: 12px;
+    background: #016eea;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+
+  .hero-wrapper {
+    min-height: 1070px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .hero-content-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .hero-content-box h1 {
+    margin: 10px;
+  }
+
+  .hero-content-box p {
+    margin: 5px;
+    text-align: justify;
+    padding: 10px;
+  }
+
+  .button-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button1 {
+    margin: 5px;
+  }
+
+  .button2 {
+    margin: 5px;
+  }
+
+  .navbarbg-box {
+    width: 100%;
+  }
+
+  .navbarbg-box img {
+    width: 95%;
+    height: 747px;
+    border-radius: 20px 0 0 20px;
+    position: absolute;
+    top: 630px;
+    left: 10px;
+  }
+
+  .banner {
+    height: 108px;
+    margin-top: 170px;
+  }
+
+  .banner h1 {
+    margin: 0px;
+    padding: 8px;
+  }
+}
+@media (min-width: 769px) and (max-width: 960px) {
+  .dropdown {
+    display: none;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .karotLogo-img {
+    margin-top: 18px;
+    margin-left: 41px;
+    border-radius: 16px;
+  }
+
+  .logo-text-box {
+    margin-left: 41px;
+    padding-top: 20px;
+  }
+
+  .logo-text-box h1 {
+    height: 21px;
+    width: 190px;
+    border-radius: nullpx;
+    /* font-family: Sukhumvit Set; */
+    font-size: 67px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 8.3px;
+    text-align: left;
+  }
+
+  .logo-text-box p {
+    height: 21px;
+    width: 218px;
+    margin-top: 20px;
+    border-radius: nullpx;
+    font-family: Sukhumvit Set;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 8.3px;
+    text-align: center;
+  }
+
+  .logo-text-box a {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: relative;
+    bottom: 140px;
+  }
+
+  nav ul li {
+    list-style-type: none;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    height: 33px;
+    font-family: Sarabun;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    color: #1c85b5;
+    text-align: center;
+    margin: 5px;
+  }
+
+  .getApp {
+    height: 35px;
+    width: 154px;
+    font-family: Sarabun;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 6px;
+    text-align: center;
+    border-radius: 12px;
+    background: #016eea;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-wrapper {
+    min-height: 1070px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-content-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .hero-content-box h1 {
+    margin: 10px;
+  }
+
+  .hero-content-box p {
+    margin: 5px;
+    text-align: justify;
+    padding: 10px;
+  }
+
+  .button-box {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button1 {
+    margin: 5px;
+  }
+
+  .button2 {
+    margin: 5px;
+  }
+
+  .navbarbg-box {
+    width: 100%;
+  }
+
+  .navbarbg-box img {
+    width: 95%;
+    height: 747px;
+    border-radius: 20px 0 0 20px;
+    position: absolute;
+    top: 630px;
+    left: 10px;
+  }
+
+  .banner {
+    height: 108px;
+  }
+
+  .banner h1 {
+    margin: 0px;
+    padding: 8px;
+  }
+}
+@media (min-width: 961px) {
+  .dropdown {
+    display: none;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .karotLogo-img {
+    margin-top: 18px;
+    margin-left: 41px;
+    border-radius: 16px;
+  }
+
+  .logo-text-box {
+    margin-left: 41px;
+    padding-top: 20px;
+  }
+
+  .logo-text-box h1 {
+    height: 21px;
+    width: 190px;
+    border-radius: nullpx;
+    /* font-family: Sukhumvit Set; */
+    font-size: 67px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 8.3px;
+    text-align: left;
+  }
+
+  .logo-text-box p {
+    height: 21px;
+    width: 218px;
+    margin-top: 20px;
+    border-radius: nullpx;
+    font-family: Sukhumvit Set;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 8.3px;
+    text-align: center;
+  }
+
+  .logo-text-box a {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: relative;
+    bottom: 40px;
+  }
+
+  nav ul li {
+    list-style-type: none;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    height: 21px;
+    font-family: Sarabun;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    color: #ffffff;
+    text-align: center;
+    z-index: 1;
+  }
+
+  .getApp {
+    height: 35px;
+    width: 154px;
+    font-family: Sarabun;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 6px;
+    text-align: center;
+    border-radius: 12px;
+    background: #016eea;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (min-width: 961px) {
+  .dropdown {
+    display: none;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .karotLogo-img {
+    margin-top: 18px;
+    margin-left: 41px;
+    border-radius: 16px;
+  }
+
+  .logo-text-box {
+    margin-left: 41px;
+    padding-top: 20px;
+  }
+
+  .logo-text-box h1 {
+    height: 21px;
+    width: 190px;
+    border-radius: nullpx;
+    /* font-family: Sukhumvit Set; */
+    font-size: 67px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 8.3px;
+    text-align: left;
+  }
+
+  .logo-text-box p {
+    height: 21px;
+    width: 218px;
+    margin-top: 20px;
+    border-radius: nullpx;
+    font-family: Sukhumvit Set;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 8.3px;
+    text-align: center;
+  }
+
+  .logo-text-box a {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: relative;
+  }
+
+  nav ul li {
+    list-style-type: none;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    height: 21px;
+    font-family: Sarabun;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    color: #ffffff;
+    text-align: center;
+    z-index: 1;
+    bottom: 140px;
+  }
+
+  .getApp {
+    height: 35px;
+    width: 154px;
+    font-family: Sarabun;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 6px;
+    text-align: center;
+    border-radius: 12px;
+    background: #016eea;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+/* hero section media queries ends here */
 /* Body Section
 --------------------------------------------- */
 .head1 {
@@ -1591,6 +2534,8 @@ Custom media queries
   max-width: 100%;
 }
 
+/* Hero Template
+--------------------------------------------- */
 /* Media
 --------------------------------------------- */
 .page-content .wp-smiley,

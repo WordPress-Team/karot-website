@@ -13,7 +13,7 @@
     <h2 class="featurette-heading head2">STEP ONE</h2>
     <br>
     <p class="font">
-    You should make a budget that is best for you. Make different categories for each item you want to budget for. Ex: vaction, house, rent, savings. 
+    You should make a budget that is best for you. Make different categories for each item you want to budget for. Ex: vacation, house, rent, savings. 
     <br>
     <br>
     <!-- <a href="#" target="_blank" ><button class="button">Sign up for free</button></a> -->

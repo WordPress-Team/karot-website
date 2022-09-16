@@ -28,17 +28,17 @@
   height: 75px;
   }
   
-  h2 {
+  .hhead2 {
     font-size: 3vw;
   }
   
-  p {
+  .prag2 {
     font-size: 1.5vw;
     text-align: center;
   }
   
   .footer {
-    position: fixed;
+    // position: fixed;
     height: 100px;
     left: 0;
     bottom: 0;
@@ -109,12 +109,12 @@
     transform: scale(1.05); 
   }
   
-  div, a{
+  .cont{
     text-decoration: none;
     color: rgb(255, 255, 255);
   }
   
-  a:hover{
+  .cont:hover{
     color: rgb(163, 160, 160);
   }
   

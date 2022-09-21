@@ -13,7 +13,7 @@
     <h2 class="featurette-heading head2">STEP ONE</h2>
     <br>
     <p class="font">
-    You should make a budget that is best for you. Make different categories for each item you want to budget for. Ex: vaction, house, rent, savings. 
+    You should make a budget that is best for you. Make different categories for each item you want to budget for. Ex: vacation, house, rent, savings. 
     <br>
     <br>
     <!-- <a href="#" target="_blank" ><button class="button">Sign up for free</button></a> -->
@@ -26,7 +26,7 @@
   
   <div class="col-md-5">
 
-    <img src="http://karotwebsite.local/wp-content/uploads/2022/08/grad.jpg" class="back">
+<img src="http://karotwebsite.local/wp-content/uploads/2022/08/grad.jpg" class="back"> 
 
     <div class="smartphone">
       <div class="content1">
@@ -54,7 +54,7 @@
   </div>
   <div class="col-md-5 order-md-1">
 
-    <img src="http://karotwebsite.local/wp-content/uploads/2022/08/grad.jpg" class="back">
+  <img src="http://karotwebsite.local/wp-content/uploads/2022/08/grad.jpg" class="back"> 
     
     <div class="smartphone">
       <div class="content2">
@@ -81,10 +81,13 @@
     </p>
   </div>
   <div class="col-md-5">
+ 
 
-    <img src="http://karotwebsite.local/wp-content/uploads/2022/08/grad.jpg" class="back">
+  <img src="http://karotwebsite.local/wp-content/uploads/2022/08/grad.jpg" class="back">
     
     <div class="smartphone">
+
+
       <div class="content3">
         <!-- <img src="./evygQYj.jpg" style="width:100%;border:none;height:100%"> -->
       </div>
@@ -96,6 +99,15 @@
 <hr class="featurette-divider">
 
 <!-- /END THE FEATURETTES -->
+
+<!-- Safe and secure to use Start -->
+
+<div class = safe-secure-box>
+    <img src="http://karotwebsite.local/wp-content/uploads/2022/09/hexagon.png" alt="hexagon">
+    <h2>Safe and secure to use</h2>
+    </div>
+
+<!-- Safe and secure to use End -->
 
 
 <!-- Testimonials Start -->

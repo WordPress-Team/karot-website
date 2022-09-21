@@ -36,8 +36,6 @@
 
 			?>
 
-				?>
-
 				
 		</div><!-- .site-branding -->
 
@@ -78,22 +76,22 @@
   }
   </script>
 <div class="logo"> 
-   <a href="#"> <img  class ="karotLogo-img"src="http://karot2.local/wp-content/uploads/2022/09/karot-logo.png" alt="" height="95px" width="95px"></a>
+   <a href="#"> <img  class ="karotLogo-img"src="http://karotwebsite.local/wp-content/uploads/2022/09/karot-logo.png" alt="" height="95px" width="95px"></a>
 
     <div class="logo-text-box"><a href="#">
         <h1>Karot <h1>
         <p>Saving Smart</p>
     </div></a>
-</div>
 
-
-
-    <ul>
+    <ul class="pu">
     <a href="#"><li>How it Works</li></a>
     <a href="#"><li>Contact</li></a>
     <a href="#"><li>Info</li></a>
     <a href="#"><li class ="getApp">Get App</li></a>
 </ul>
+</div>
+
+
 
 </nav>
 <!-- nav ends here -->
@@ -112,7 +110,7 @@
 </div>
 <div class="navbarbg-box">
 
-    <img src="http://karot2.local/wp-content/uploads/2022/09/hero-mage.png" alt=" hero image">
+    <img src="http://karotwebsite.local/wp-content/uploads/2022/09/hero-mage.png" alt=" hero image">
 </div>
 
 </div>
@@ -123,7 +121,7 @@
 <div class="banner">
 <h1>
     See why people are using our App
-    <div class="rating-stars">
+      <div class="rating-stars">
         <span style="font-size:46px;color:yellow;">&starf;</span>
         <span style="font-size:46px;color:yellow;">&starf;</span>
         <span style="font-size:46px;color:yellow;">&starf;</span>
@@ -131,6 +129,7 @@
         
     </div>
 </h1>
+
 </div>
 
 		

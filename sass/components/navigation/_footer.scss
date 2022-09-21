@@ -1,5 +1,5 @@
 .border{
-    border-radius: 20%;
+    border-radius: 15px;
   }
   
   /* App Section begins here */
@@ -12,33 +12,17 @@
   }
   
   
-  .safe-secure-box{
-    height: 200px;
-    margin: 0 100px;
-    border-radius: 10px;
-  background: linear-gradient(157.54deg, #C4D8F2 -1.25%, #E8E5EE 99.71%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  }
-  
-  .safe-secure-box img{
-  width: 100px;
-  height: 75px;
-  }
-  
-  h2 {
+  .hhead2 {
     font-size: 3vw;
   }
   
-  p {
+  .prag2 {
     font-size: 1.5vw;
     text-align: center;
   }
   
   .footer {
-    position: fixed;
+    // position: fixed;
     height: 100px;
     left: 0;
     bottom: 0;
@@ -109,12 +93,12 @@
     transform: scale(1.05); 
   }
   
-  div, a{
+  .cont{
     text-decoration: none;
     color: rgb(255, 255, 255);
   }
   
-  a:hover{
+  .cont:hover{
     color: rgb(163, 160, 160);
   }
   
@@ -136,3 +120,6 @@
     -webkit-transform: scale(1.5); /* Safari 3-8 */
     transform: scale(1.05); 
   }
+
+   
+      

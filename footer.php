@@ -14,10 +14,6 @@
 
 <!-- <img src="img_la.jpg" alt="LA" style="width:100%"> -->
 
-<div class = safe-secure-box>
-        <img src="http://karotwebsite.local/wp-content/uploads/2022/09/hexagon.png" alt="hexagon">
-        <h1>Safe and secure to use</h1>
-    </div>
     
     <div class="try-app">
         <h2 class="hhead2">Try Karot App for Free</h2>
@@ -33,15 +29,15 @@
     <div class="footer">
         <div class="grid-container">
             <div class="grid-item item1">
-                <a href="https://www.apple.com/app-store/" target="_blank"> <img src="http://karotwebsite.local/wp-content/uploads/2022/09/app_store.jpg" alt="Apple" class="border " width="130" height="38"> </a>
+                <a href="https://www.apple.com/app-store/" target="_blank"> <img src="http://karotwebsite.local/wp-content/uploads/2022/09/apple1.jpg" alt="Apple" class="border " width="130" height="38"> </a>
             </div>
-                <div class="grid-item item2">GET THE APP</div>
+                <div class="grid-item item2">Get the app</div>
                 <div class="grid-item item3">
-                    <a href="https://play.google.com/store/" target="_blank"> <img src="http://karotwebsite.local/wp-content/uploads/2022/09/google_store.jpg" alt="Google" class="border " width="130" height="38"> </a>
+                    <a href="https://play.google.com/store/" target="_blank"> <img src="http://karotwebsite.local/wp-content/uploads/2022/09/google1.jpg" alt="Google" class="border " width="130" height="38"> </a>
                 </div>
-                <div class="grid-item item4 under"><a class="cont" href="#" target="_blank">CONTACT</a></div>
+                <div class="grid-item item4 under"><a class="cont" href="#" target="_blank">Contact</a></div>
                 <div class="grid-item item5">&#169; 2022</div>
-            <div class="grid-item item6"><a class="cont" href="#" target="_blank">HELP</a></div>  
+            <div class="grid-item item6"><a class="cont" href="#" target="_blank">Help</a></div>  
         </div>
     </div>
 

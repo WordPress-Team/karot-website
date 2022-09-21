@@ -1,5 +1,5 @@
 .border{
-    border-radius: 20%;
+    border-radius: 15px;
   }
   
   /* App Section begins here */
@@ -11,22 +11,6 @@
     color: black;
   }
   
-  
-  .safe-secure-box{
-    height: 200px;
-    margin: 0 100px;
-    border-radius: 10px;
-  background: linear-gradient(157.54deg, #C4D8F2 -1.25%, #E8E5EE 99.71%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  }
-  
-  .safe-secure-box img{
-  width: 100px;
-  height: 75px;
-  }
   
   .hhead2 {
     font-size: 3vw;
@@ -136,3 +120,6 @@
     -webkit-transform: scale(1.5); /* Safari 3-8 */
     transform: scale(1.05); 
   }
+
+   
+      

@@ -1,11 +1,10 @@
  /* nav css starts here */
-
- *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  
+.pu{
+    margin-left: 390px;
+    margin-top: 20px;
+    
 }
+
 
 .logo{
   
@@ -32,7 +31,7 @@
 
 
 /* font-family: Sukhumvit Set; */
-font-size: 67px;
+font-size: 50px;
 font-weight: 500;
 line-height: 21px;
 letter-spacing: 8.3px;
@@ -60,13 +59,11 @@ text-align: center;
 }
 
 
-
 nav ul{
     display: flex;
     justify-content:flex-end;
     align-items: flex-end;
    position:relative;
-    bottom:70px;
    
    
 }
@@ -121,6 +118,8 @@ nav ul a{
            display: flex;
 
 
+
+
         }
         .hero-content-box{
             width: 628px;
@@ -132,16 +131,16 @@ nav ul a{
         }
 
         .hero-content-box h1{
-            height: 110px;
+            height: 65px;
             width: 458px;
            
-            margin-top:230px;
-            margin-left: 58px;
+            margin-top: 5px;
+            margin-left: 50px;
             border-radius: nullpx;
            
 
             font-family: Arial;
-            font-size: 48px;
+            font-size: 2.3vw;
             font-weight: 400;
             line-height: 55px;
             letter-spacing: 0em;
@@ -154,13 +153,12 @@ nav ul a{
             height: 84px;
             width: 478px;
             
-            margin-top:43px;
             margin-left:48px;
             margin-right: 104px;
             border-radius: nullpx;
 
             font-family: Arial;
-            font-size: 24px;
+            font-size: 1.8vw;
             font-weight: 400;
             line-height: 28px;
             letter-spacing: 0em;
@@ -179,12 +177,12 @@ nav ul a{
         .button1{
             margin-right: 30px;
             height: 72px;
-            width: 235px;
+            width: 200px;
             
             border-radius: 29px;
             background: linear-gradient(141.16deg, #2383C9 7.97%, #5A1E70 138.18%);
             font-family: Raleway;
-            font-size: 28px;
+            font-size: 1.4vw;
             font-weight: 600;
             line-height: 42px;
             letter-spacing: 0.081em;
@@ -200,13 +198,13 @@ nav ul a{
         .button2{
 
             height: 72px;
-            width: 235px;
+            width: 200px;
             left: 0px;
             top: 5px;
             border-radius: 29px;
 
             font-family: Raleway;
-            font-size: 28px;
+            font-size: 1.4vw;
             font-weight: 600;
             line-height: 42px;
             letter-spacing: 0.081em;
@@ -229,8 +227,8 @@ nav ul a{
            }
 
         .navbarbg-box img{
-            height: 747px;
-            width:890px;
+            height: 590px;
+            width:53vw;
           
             border-radius: 20px 0 0 20px;
             position: absolute;
@@ -242,10 +240,6 @@ nav ul a{
        
 
 /* banner css here */
-span{
- 
-  
-}
 
 .banner{
    
@@ -255,6 +249,7 @@ left: 0px;
 margin-top: 150px;
 border-radius: 0px;
 background: #9794CC;
+margin-bottom: 30px;
 
 }
 
@@ -265,6 +260,7 @@ background: #9794CC;
 .rating-stars{
 display: inline-block;
 margin-left: 100px;
+margin-top: 10px;
 }
 
         /* hero css ends here */
@@ -305,7 +301,7 @@ margin-left: 100px;
                 display: none;
                 position: absolute;
                 background-color: #f1f1f1;
-                min-width: 125px;
+                min-width: 155px;
                 overflow: auto;
                 box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
                 // right: 0;
@@ -388,54 +384,7 @@ margin-left: 100px;
                 color:#000000;
             }
             
-            
-            
-            nav ul{
-                display: flex;
-                justify-content:flex-end;
-                align-items: flex-end;
-               position:relative;
-                bottom:140px;
-
-            }
-            nav ul li{
-                list-style-type: none;
-                margin-right: 30px;
-                margin-bottom: 10px;
-                
-                height: 21px;
-                font-family: Sarabun;
-                font-size: 18px;
-                font-weight: 700;
-                line-height: 21px;
-                color:#ffffff;
-                text-align: center;
-                display: none;
-            
-            }
-            
-            .getApp {
-                height: 35px;
-                width: 154px;
-               
-                font-family: Sarabun;
-                font-size: 18px;
-                font-weight: 500;
-                line-height: 21px;
-                letter-spacing: 6px;
-                text-align: center;
-            
-                border-radius: 12px;
-                background: #016eea;
-                color:#ffffff;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                display: none;
-            
-            
-            }
-            
+         
            
           
            .hero-wrapper{
@@ -459,12 +408,39 @@ margin-left: 100px;
 
             .hero-content-box h1{
                 margin:10px;
+                height: 65px;
+                width: 458px;
+               
+                margin-top: 5px;
+                margin-left: 56px;
+                border-radius: nullpx;
+               
+    
+                font-family: Arial;
+                font-size: 8vw;
+                font-weight: 400;
+                line-height: 55px;
+                letter-spacing: 0em;
+                text-align: left;
             }
 
             .hero-content-box p{
-                margin: 5px;
-                text-align: justify;
-                padding: 10px;
+                          
+            height: 84px;
+            width: 400px;
+            
+            margin-left:0px;
+            margin-right: 0px;
+            border-radius: nullpx;
+
+            font-family: Arial;
+            font-size: 5vw;
+            font-weight: 400;
+            line-height: 28px;
+            letter-spacing: 0em;
+            text-align: left;
+
+                
             }
             
             .button-box{
@@ -473,13 +449,46 @@ margin-left: 100px;
                 justify-content: center;
                 align-items: center;
             }
+
             
             .button1{
                 margin:5px;
+                height: 72px;
+                width: 200px;
+                
+                border-radius: 29px;
+                background: linear-gradient(141.16deg, #2383C9 7.97%, #5A1E70 138.18%);
+                font-family: Raleway;
+                font-size: 4.5vw;
+                font-weight: 600;
+                line-height: 42px;
+                letter-spacing: 0.081em;
+                text-align: center;
+                color:#ffffff;
+                cursor: pointer;
+
             }
 
             .button2{
                 margin:5px;
+                height: 72px;
+                width: 200px;
+                left: 0px;
+                top: 5px;
+                border-radius: 29px;
+    
+                font-family: Raleway;
+                font-size: 4.5vw;
+                font-weight: 600;
+                line-height: 42px;
+                letter-spacing: 0.081em;
+                text-align: center;
+                background-color: #ffffff;
+                
+                border:1px solid rgba(35, 131, 201, 1);
+    
+                color: linear-gradient(141.16deg, #112736 7.97%, #AE47D2 138.18%);
+                cursor: pointer;
             }
         
         
@@ -491,27 +500,42 @@ margin-left: 100px;
         }
 
         .navbarbg-box img{
-            width:95%;
+            width:475px;
             height: 747px;
-            margin-top:40px;
+            margin-top:250px;
            
             border-radius: 20px 0 0 20px;
             position: absolute;
             top: 630px;
-            left:10px;
+            left:5px;
 }
        
 
 .banner{
-    height: 108px;
+    height: 50px;
+    width: 100%;
+    left: 0px;
+    margin-top: 150px;
+    border-radius: 0px;
+    background: #9794CC;
+    margin-bottom: 40px;
 
  
 }
 
   .banner h1{
-    margin:0px;
+   text-align: left;
     padding:8px;
-  }      
+    font-size: 5.5vw;
+
+  }    
+  
+  .rating-stars{
+    display: inline-block;
+    margin-left: 200px;
+    margin-top: 500px;
+
+    }
 
 
 }
@@ -520,7 +544,7 @@ margin-left: 100px;
         
         
         
-        @media (min-width:481px) and (max-width:768px){
+        @media(max-width:768px){
            
             // dropdown menu
             .dropbtn {
@@ -536,25 +560,26 @@ margin-left: 100px;
               
               .dropbtn:hover, .dropbtn:focus {
                 background-color: #ffffff;
+                z-index: 1;
               }
               
               .dropdown {
                 float: left;
                 position: relative;
                 display: inline-block;
+                
               }
               
               .dropdown-content {
                 display: none;
                 position: absolute;
                 background-color: #f1f1f1;
-                min-width: 125px;
+                min-width: 155px;
                 overflow: auto;
                 box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
                 // right: 0;
                 line-height: 0;
-                background: transparent;
-                z-index: 1;
+                z-index:1;
               }
               
               .dropdown-content a {
@@ -571,10 +596,10 @@ margin-left: 100px;
           
                // nav media 
 
-               nav{
+            //    nav{
     
    
-            }
+            // }
             .logo{
               
                 display: flex;
@@ -594,18 +619,18 @@ margin-left: 100px;
             }
             
             .logo-text-box h1{
-                height: 21px;
+                height: 5px;
                 width: 190px;
             
                 border-radius: nullpx;
             
             
             /* font-family: Sukhumvit Set; */
-            font-size: 67px;
+            font-size: 4.9vw;
             font-weight: 500;
             line-height: 21px;
-            letter-spacing: 8.3px;
-            text-align: left;
+            letter-spacing: 8.8px;
+            text-align: center;
             
             
             }
@@ -681,7 +706,7 @@ margin-left: 100px;
           
           
             .hero-wrapper{
-            min-height:1070px;
+            min-height:1100px;
             width: 100%;
             display:flex;
            flex-direction: column;
@@ -700,13 +725,40 @@ margin-left: 100px;
             }
 
             .hero-content-box h1{
-                margin:10px;
+                margin:5px;
+                height: 75px;
+                width: 458px;
+               
+                margin-top: 5px;
+                margin-left: 60px;
+                border-radius: nullpx;
+               
+    
+                font-family: Arial;
+                font-size: 4.5vw;
+                font-weight: 400;
+                line-height: 55px;
+                letter-spacing: 0em;
+                text-align: left;
             }
 
             .hero-content-box p{
-                margin: 5px;
-                text-align: justify;
-                padding: 10px;
+                          
+            height: 84px;
+            width: 400px;
+            
+            margin-left:0px;
+            margin-right: 0px;
+            border-radius: nullpx;
+
+            font-family: Arial;
+            font-size: 3.1vw;
+            font-weight: 400;
+            line-height: 28px;
+            letter-spacing: 0em;
+            text-align: left;
+
+                
             }
             
             .button-box{
@@ -718,10 +770,41 @@ margin-left: 100px;
             
             .button1{
                 margin:5px;
+                height: 72px;
+                width: 200px;
+                
+                border-radius: 29px;
+                background: linear-gradient(141.16deg, #2383C9 7.97%, #5A1E70 138.18%);
+                font-family: Raleway;
+                font-size: 3vw;
+                font-weight: 600;
+                line-height: 42px;
+                letter-spacing: 0.081em;
+                text-align: center;
+                color:#ffffff;
+                cursor: pointer;
             }
 
             .button2{
                 margin:5px;
+                height: 72px;
+                width: 200px;
+                left: 0px;
+                top: 5px;
+                border-radius: 29px;
+    
+                font-family: Raleway;
+                font-size: 3vw;
+                font-weight: 600;
+                line-height: 42px;
+                letter-spacing: 0.081em;
+                text-align: center;
+                background-color: #ffffff;
+                
+                border:1px solid rgba(35, 131, 201, 1);
+    
+                color: linear-gradient(141.16deg, #112736 7.97%, #AE47D2 138.18%);
+                cursor: pointer;
             }
         
         
@@ -733,42 +816,95 @@ margin-left: 100px;
         }
 
         .navbarbg-box img{
-            width:95%;
-            height: 747px;
+            width:97.3%;
+            height: 800px;
            
             border-radius: 20px 0 0 20px;
             position: absolute;
             top: 630px;
-            left:10px;
+            left:5px;
 }
        
 
 .banner{
-    height: 108px;
-    margin-top:170px;
+    height: 50px;
+    width: 103%;
+    left: 0px;
+    margin-top: 155px;
+    border-radius: 0px;
+    background: #9794CC;
+    margin-bottom: 40px;
 
  
 }
 
   .banner h1{
-    margin:0px;
     padding:8px;
-  }      
+    font-size: 3.5vw;
+  }    
+  
+  .rating-stars{
+    display: inline-block;
+    margin-right: 80px;
+    float: right;
+    margin-top: -45px;
+    
+    }     
 
        
         }
 
-        @media (min-width:769px) and (max-width:960px){
+        @media (max-width:960px){
+            //960px
 
-            .dropdown{
-                display: none;
-            }
-              // nav media 
-
-              nav{
+// drop down css
+.dropbtn {
+    background-color: #ffffff;
+    color: rgb(25, 126, 235);
+    padding: 16px;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #ffffff;
+  }
+  
+  .dropdown {
+    float: left;
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 155px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    // right: 0;
+    // background: transparent;
+    line-height: 0;
+    z-index: -5px;
     
-   
-            }
+    
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+//    text-align: center;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+           
             .logo{
               
                 display: flex;
@@ -787,18 +923,18 @@ margin-left: 100px;
             }
             
             .logo-text-box h1{
-                height: 21px;
+                height: 10px;
                 width: 190px;
             
                 border-radius: nullpx;
             
             
             /* font-family: Sukhumvit Set; */
-            font-size: 67px;
+            font-size: 4vw;
             font-weight: 500;
             line-height: 21px;
             letter-spacing: 8.3px;
-            text-align: left;
+            text-align: center;
             
             
             }
@@ -873,10 +1009,11 @@ margin-left: 100px;
 
        
             .hero-wrapper{
-            min-height:1070px;
+            min-height:1020px;
             width: 100%;
             display:flex;
            flex-direction: column;
+           margin-top: 10px;
            
 
            }
@@ -892,14 +1029,42 @@ margin-left: 100px;
             }
 
             .hero-content-box h1{
-                margin:10px;
+                margin:5px;
+                height: 70px;
+                width: 458px;
+               
+                margin-top: 5px;
+                margin-left: 60px;
+                border-radius: nullpx;
+               
+    
+                font-family: Arial;
+                font-size: 3.1vw;
+                font-weight: 400;
+                line-height: 55px;
+                letter-spacing: 0em;
+                text-align: left;
             }
 
             .hero-content-box p{
-                margin: 5px;
-                text-align: justify;
-                padding: 10px;
+                          
+            height: 70px;
+            width: 400px;
+            
+            margin-left:0px;
+            margin-right: 0px;
+            border-radius: nullpx;
+
+            font-family: Arial;
+            font-size: 2vw;
+            font-weight: 400;
+            line-height: 28px;
+            letter-spacing: 0em;
+            text-align: left;
             }
+
+                
+
             
             .button-box{
                 display: flex;
@@ -925,18 +1090,24 @@ margin-left: 100px;
         }
 
         .navbarbg-box img{
-            width:95%;
+            width:100%;
             height: 747px;
            
             border-radius: 20px 0 0 20px;
             position: absolute;
-            top: 630px;
-            left:10px;
+            top: 530px;
+            left:20px;
 }
        
 
 .banner{
     height: 108px;
+    width: 100%;
+    left: 0px;
+    margin-top: 155px;
+    border-radius: 0px;
+    background: #9794CC;
+    margin-bottom: 40px;
 
  
 }
@@ -959,10 +1130,10 @@ margin-left: 100px;
 
               // nav media 
 
-              nav{
+            //   nav{
     
    
-            }
+            // }
             .logo{
               
                 display: flex;
@@ -1064,11 +1235,11 @@ margin-left: 100px;
             
             
             }
-            nav ul a{
+            //nav ul a{
                 // text-decoration: none;
                 // z-index: -1;
                
-            }
+           // }
             
             
         }
@@ -1081,10 +1252,10 @@ margin-left: 100px;
 
               // nav media 
 
-              nav{
+            //   nav{
     
    
-            }
+            // }
             .logo{
               
                 display: flex;
@@ -1187,10 +1358,10 @@ margin-left: 100px;
             
             }
             nav ul a{
-                // text-decoration: none;
-                // z-index: -1;
+                text-decoration: none;
+                z-index: -1;
                
-            }
+           }
             
             
         }

@@ -29,11 +29,11 @@
     <div class="footer">
         <div class="grid-container">
             <div class="grid-item item1">
-                <a href="https://www.apple.com/app-store/" target="_blank"> <img src="http://karotwebsite.local/wp-content/uploads/2022/09/apple1.jpg" alt="Apple" class="border " width="130" height="38"> </a>
+                <a href="https://www.apple.com/app-store/" target="_blank"> <img src="http://karotwebsite.local/wp-content/uploads/2022/09/apple.jpg" alt="Apple" class="border " width="130" height="38"> </a>
             </div>
                 <div class="grid-item item2">Get the app</div>
                 <div class="grid-item item3">
-                    <a href="https://play.google.com/store/" target="_blank"> <img src="http://karotwebsite.local/wp-content/uploads/2022/09/google1.jpg" alt="Google" class="border " width="130" height="38"> </a>
+                    <a href="https://play.google.com/store/" target="_blank"> <img src="http://karotwebsite.local/wp-content/uploads/2022/09/google.jpg" alt="Google" class="border " width="130" height="38"> </a>
                 </div>
                 <div class="grid-item item4 under"><a class="cont" href="#" target="_blank">Contact</a></div>
                 <div class="grid-item item5">&#169; 2022</div>

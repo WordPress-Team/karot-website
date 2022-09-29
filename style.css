@@ -722,8 +722,8 @@ textarea {
 
 .footer {
   height: 100px;
-  left: 0;
-  bottom: 0;
+  margin-bottom: -40px;
+  overflow: hidden;
   width: 100%;
   background: linear-gradient(-13deg, #815dc7, #3981b5);
   color: white;
@@ -811,6 +811,51 @@ textarea {
   transition: transform 0.3s;
 }
 
+/* Small devices (landscape phones, 480px and up) */
+@media (min-width: 480px) {
+  .hhead2 {
+    font-size: 5.2vw;
+    margin-top: 10px;
+  }
+
+  .prag2 {
+    font-size: 2.9vw;
+    text-align: center;
+  }
+}
+@media (min-width: 768px) {
+  .hhead2 {
+    font-size: 3.9vw;
+    margin-top: 10px;
+  }
+
+  .prag2 {
+    font-size: 2.2vw;
+    text-align: center;
+  }
+}
+@media (min-width: 960px) {
+  .hhead2 {
+    font-size: 3.2vw;
+    margin-top: 10px;
+  }
+
+  .prag2 {
+    font-size: 2.1vw;
+    text-align: center;
+  }
+}
+@media (min-width: 1240px) {
+  .hhead2 {
+    font-size: 2.8vw;
+    margin-top: 10px;
+  }
+
+  .prag2 {
+    font-size: 1.5vw;
+    text-align: center;
+  }
+}
 /* Posts and pages
 --------------------------------------------- */
 .sticky {
@@ -1671,10 +1716,15 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     letter-spacing: -0.05rem;
   }
 
+  .head2 {
+    padding: 10px;
+    margin-left: 21px;
+  }
+
   /* For paragraph */
   .font {
-    font-size: 3.2vw;
-    margin-left: 50px;
+    font-size: 3vw;
+    margin-left: 30px;
   }
 
   /* Gradient back */

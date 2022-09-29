@@ -336,11 +336,15 @@ padding: 20px;
           letter-spacing: -.05rem;
         }
 
+        .head2{
+          padding: 10px;
+          margin-left: 21px;
+        }
 
         /* For paragraph */
         .font{
-          font-size: 3.2vw;
-          margin-left: 50px;
+          font-size: 3vw;
+          margin-left: 30px;
         }
 
         /* Gradient back */
@@ -713,7 +717,7 @@ padding: 20px;
         }
 
         .safe-secure-box{
-          height: 180px;
+          height: 180px; 
           width: 93vw;
         border-radius: 10px;
         background: linear-gradient(157.54deg, #C4D8F2 -1.25%, #E8E5EE 99.71%);

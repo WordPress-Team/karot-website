@@ -886,9 +886,14 @@ textarea {
     margin-top: 7rem;
   }
 }
+.col-md-72 {
+  flex: 0 0 auto;
+  width: 550px;
+}
+
 .navbarbg-box img {
-  height: 500px;
-  width: 510px;
+  height: 45vw;
+  width: 58.1vw;
   border-radius: 20px;
   position: absolute;
   z-index: -2;
@@ -978,9 +983,380 @@ textarea {
 
 /* Media queries */
 /* Small devices (landscape phones, 480px and up) */
+@media (min-width: 480px) {
+  .here {
+    margin-bottom: 50px;
+    font-size: 4.5vw;
+    font-family: Sukhumvit Set;
+    line-height: 1.4;
+    margin-left: 20px;
+  }
+
+  .heading2 {
+    margin-top: -100px;
+    margin-left: 20px;
+  }
+
+  .button-box {
+    margin-left: 5px;
+  }
+
+  .button1 {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 72px;
+    width: 200px;
+    border-radius: 29px;
+    background: linear-gradient(141.16deg, #2383C9 7.97%, #5A1E70 138.18%);
+    font-family: Raleway;
+    font-size: 3.4vw;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: 0.081em;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  .button2 {
+    height: 72px;
+    width: 200px;
+    top: 5px;
+    border-radius: 29px;
+    font-family: Raleway;
+    font-size: 3.4vw;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: 0.081em;
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid #2383c9;
+    color: linear-gradient(141.16deg, #112736 7.97%, #AE47D2 138.18%);
+    cursor: pointer;
+  }
+
+  /* banner css here */
+  .banner img {
+    width: 100%;
+    height: 32px;
+    margin-top: 500px;
+  }
+
+  .navbarbg-box img {
+    height: 100vw;
+    width: 100vw;
+    border-radius: 20px;
+    position: absolute;
+    z-index: -2;
+  }
+}
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  .here {
+    margin-bottom: 50px;
+    font-size: 3.1vw;
+    font-family: Sukhumvit Set;
+    line-height: 1.4;
+    margin-left: 150px;
+    margin-top: 20px;
+  }
+
+  .heading2 {
+    margin-top: -100px;
+    margin-left: 150px;
+  }
+
+  .col-md-72 {
+    flex: 0 0 auto;
+    width: 650px;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .karotLogo-img {
+    margin-top: 18px;
+    margin-left: 240px;
+    border-radius: 16px;
+  }
+
+  .pg {
+    height: 21px;
+    width: 218px;
+    margin-left: 340px;
+    margin-top: -45px;
+    margin-bottom: 195px;
+    font-family: Sukhumvit Set;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 8.3px;
+    text-align: center;
+  }
+
+  .button-box {
+    margin-left: 152px;
+  }
+
+  .button1 {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 72px;
+    width: 200px;
+    border-radius: 29px;
+    background: linear-gradient(141.16deg, #2383C9 7.97%, #5A1E70 138.18%);
+    font-family: Raleway;
+    font-size: 2.4vw;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: 0.081em;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  .button2 {
+    height: 72px;
+    width: 200px;
+    top: 5px;
+    border-radius: 29px;
+    font-family: Raleway;
+    font-size: 2.4vw;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: 0.081em;
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid #2383c9;
+    color: linear-gradient(141.16deg, #112736 7.97%, #AE47D2 138.18%);
+    cursor: pointer;
+  }
+
+  /* banner css here */
+  .banner img {
+    width: 100%;
+    height: 42px;
+    margin-top: 780px;
+    margin-bottom: 20px;
+  }
+
+  .navbarbg-box img {
+    height: 100vw;
+    width: 100vw;
+    border-radius: 20px;
+    position: absolute;
+    z-index: -2;
+  }
+}
 /* Large devices (desktops, 960px and up) */
+@media (min-width: 960px) {
+  .here {
+    margin-bottom: 50px;
+    font-size: 3.1vw;
+    font-family: Sukhumvit Set;
+    line-height: 1.4;
+    margin-left: 270px;
+    margin-top: -1px;
+  }
+
+  .heading2 {
+    margin-top: -100px;
+    margin-left: 270px;
+  }
+
+  .col-md-72 {
+    flex: 0 0 auto;
+    width: 750px;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .karotLogo-img {
+    margin-top: 18px;
+    margin-left: 270px;
+    border-radius: 16px;
+  }
+
+  .pg {
+    height: 21px;
+    width: 218px;
+    margin-left: 370px;
+    margin-top: -45px;
+    margin-bottom: 195px;
+    font-family: Sukhumvit Set;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 8.3px;
+    text-align: center;
+  }
+
+  .button-box {
+    margin-left: 240px;
+  }
+
+  .button1 {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 72px;
+    width: 200px;
+    border-radius: 29px;
+    background: linear-gradient(141.16deg, #2383C9 7.97%, #5A1E70 138.18%);
+    font-family: Raleway;
+    font-size: 2.4vw;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: 0.081em;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  .button2 {
+    height: 72px;
+    width: 200px;
+    top: 5px;
+    border-radius: 29px;
+    font-family: Raleway;
+    font-size: 2.4vw;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: 0.081em;
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid #2383c9;
+    color: linear-gradient(141.16deg, #112736 7.97%, #AE47D2 138.18%);
+    cursor: pointer;
+  }
+
+  /* banner css here */
+  .banner img {
+    width: 100%;
+    height: 52px;
+    margin-top: 955px;
+    margin-bottom: 20px;
+  }
+
+  .navbarbg-box img {
+    height: 100vw;
+    width: 100vw;
+    border-radius: 20px;
+    position: absolute;
+    z-index: -2;
+  }
+}
 /* Extra large devices (large desktops, 1240px and up) */
+@media (min-width: 1240px) {
+  .here {
+    margin-bottom: 50px;
+    font-size: 1.8vw;
+    font-family: Sukhumvit Set;
+    line-height: 1.4;
+    margin-left: 40px;
+    margin-top: -1px;
+  }
+
+  .heading2 {
+    margin-top: -100px;
+    margin-left: 40px;
+  }
+
+  .col-md-72 {
+    flex: 0 0 auto;
+    width: 550px;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .karotLogo-img {
+    margin-top: 18px;
+    margin-left: 42px;
+    border-radius: 16px;
+  }
+
+  .pg {
+    height: 21px;
+    width: 218px;
+    margin-left: 142px;
+    margin-top: -45px;
+    margin-bottom: 195px;
+    font-family: Sukhumvit Set;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 8.3px;
+    text-align: center;
+  }
+
+  .button-box {
+    margin-left: 10px;
+  }
+
+  .button1 {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 50px;
+    height: 72px;
+    width: 200px;
+    border-radius: 29px;
+    background: linear-gradient(141.16deg, #2383C9 7.97%, #5A1E70 138.18%);
+    font-family: Raleway;
+    font-size: 1.5vw;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: 0.081em;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  .button2 {
+    height: 72px;
+    width: 200px;
+    top: 5px;
+    border-radius: 29px;
+    font-family: Raleway;
+    font-size: 1.5vw;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: 0.081em;
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid #2383c9;
+    color: linear-gradient(141.16deg, #112736 7.97%, #AE47D2 138.18%);
+    cursor: pointer;
+  }
+
+  /* banner css here */
+  .banner img {
+    width: 100%;
+    height: 59px;
+    margin-top: 310px;
+    margin-bottom: 20px;
+  }
+
+  .navbarbg-box img {
+    height: 55.3vw;
+    width: 58.3vw;
+    border-radius: 20px;
+    position: absolute;
+    z-index: -2;
+  }
+}
 /* Body Section
 --------------------------------------------- */
 .head1 {
@@ -1000,7 +1376,6 @@ textarea {
   padding: 10px;
 }
 
-/* font-family: 'Sarabun */
 /* Featurettes
 ------------------------- */
 .featurette-divider {
@@ -1151,25 +1526,6 @@ textarea {
   border-radius: 50%;
 }
 
-/* The dot/bullet/indicator container */
-/* .dot-container {
-    text-align: center;
-    padding: 20px;
-    width: 1000px;
-    margin-left: 400px;
-    background: linear-gradient(to left, rgb(90, 58, 247), rgb(96, 96, 248), rgb(27, 27, 27));
-  } */
-/* The dots/bullets/indicators */
-/* .dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: rgb(49, 34, 255);
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-} */
 /* Add a background color to the active dot/circle */
 .active, .dot:hover {
   background-color: #131313;
@@ -1304,7 +1660,7 @@ Extra small devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap because it is "mobile first"
 */
 /* Small devices (landscape phones, 480px and up) */
-@media (min-width: 360px) {
+@media (min-width: 480px) {
   /* For header */
   .featurette-heading {
     font-weight: bold;
@@ -1381,6 +1737,23 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     color: #f1f1f1;
     font-size: 4vw;
     padding: 10px;
+  }
+
+  .safe-secure-box {
+    height: 180px;
+    width: 80vw;
+    border-radius: 10px;
+    background: linear-gradient(157.54deg, #C4D8F2 -1.25%, #E8E5EE 99.71%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 50px;
+  }
+
+  .safe-secure-box img {
+    width: 150px;
+    height: 90px;
   }
 }
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
@@ -1462,6 +1835,23 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     font-size: 3vw;
     padding: 10px;
   }
+
+  .safe-secure-box {
+    height: 180px;
+    width: 87.7vw;
+    border-radius: 10px;
+    background: linear-gradient(157.54deg, #C4D8F2 -1.25%, #E8E5EE 99.71%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 50px;
+  }
+
+  .safe-secure-box img {
+    width: 150px;
+    height: 90px;
+  }
 }
 /* Large devices (desktops, 960px and up) */
 @media (min-width: 960px) {
@@ -1541,6 +1931,23 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     font-size: 3vw;
     padding: 10px;
   }
+
+  .safe-secure-box {
+    height: 180px;
+    width: 89.9vw;
+    border-radius: 10px;
+    background: linear-gradient(157.54deg, #C4D8F2 -1.25%, #E8E5EE 99.71%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 50px;
+  }
+
+  .safe-secure-box img {
+    width: 150px;
+    height: 90px;
+  }
 }
 /* Extra large devices (large desktops, 1240px and up) */
 @media (min-width: 1240px) {
@@ -1619,6 +2026,23 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     color: #f1f1f1;
     font-size: 2vw;
     padding: 10px;
+  }
+
+  .safe-secure-box {
+    height: 180px;
+    width: 93vw;
+    border-radius: 10px;
+    background: linear-gradient(157.54deg, #C4D8F2 -1.25%, #E8E5EE 99.71%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 40px;
+  }
+
+  .safe-secure-box img {
+    width: 120px;
+    height: 90px;
   }
 }
 /*

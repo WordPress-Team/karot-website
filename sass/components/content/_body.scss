@@ -16,10 +16,6 @@
 
 }
 
-/* font-family: 'Sarabun */
-
-
-
 /* Featurettes
 ------------------------- */
 
@@ -116,6 +112,7 @@
   }
 
   .back{
+
     z-index: -1;
     width: 40vw;
     height: 500px;
@@ -175,26 +172,6 @@
   border-radius: 50%;
 }
 
-/* The dot/bullet/indicator container */
-/* .dot-container {
-    text-align: center;
-    padding: 20px;
-    width: 1000px;
-    margin-left: 400px;
-    background: linear-gradient(to left, rgb(90, 58, 247), rgb(96, 96, 248), rgb(27, 27, 27));
-  } */
-
-/* The dots/bullets/indicators */
-/* .dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: rgb(49, 34, 255);
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-} */
 
 /* Add a background color to the active dot/circle */
 .active, .dot:hover {
@@ -348,7 +325,7 @@ padding: 20px;
       
       
       /* Small devices (landscape phones, 480px and up) */
-      @media (min-width: 360px) { 
+      @media (min-width: 480px) { 
         /* For header */
         .featurette-heading {
           font-weight: bold;
@@ -427,6 +404,24 @@ padding: 20px;
           font-size: 4vw;
           padding: 10px;
         
+        }
+
+        // Safe and secure
+        .safe-secure-box{
+          height: 180px;
+          width: 80vw;
+        border-radius: 10px;
+        background: linear-gradient(157.54deg, #C4D8F2 -1.25%, #E8E5EE 99.71%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 50px;
+        }
+        
+        .safe-secure-box img{
+        width: 150px;
+        height: 90px;
         }
       
       }
@@ -513,6 +508,24 @@ padding: 20px;
         
         }
 
+     // Safe and secure
+  .safe-secure-box{
+    height: 180px;
+    width: 87.7vw;
+    border-radius: 10px;
+   background: linear-gradient(157.54deg, #C4D8F2 -1.25%, #E8E5EE 99.71%);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-left: 50px;
+   }
+   
+  .safe-secure-box img{
+    width: 150px;
+    height: 90px;
+  }
+
       
       }
       
@@ -595,6 +608,24 @@ padding: 20px;
           padding: 10px;
         
         }
+
+        // Safe and secure
+  .safe-secure-box{
+    height: 180px;
+    width: 89.9vw;
+    border-radius: 10px;
+   background: linear-gradient(157.54deg, #C4D8F2 -1.25%, #E8E5EE 99.71%);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-left: 50px;
+   }
+   
+  .safe-secure-box img{
+    width: 150px;
+    height: 90px;
+  }
 
       
       }
@@ -681,8 +712,27 @@ padding: 20px;
         
         }
 
+        .safe-secure-box{
+          height: 180px;
+          width: 93vw;
+        border-radius: 10px;
+        background: linear-gradient(157.54deg, #C4D8F2 -1.25%, #E8E5EE 99.71%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 40px;
+        }
+        
+        .safe-secure-box img{
+        width: 120px;
+        height: 90px;
+        }
+  
+        }
+
           
-      }
+      
 
   
       

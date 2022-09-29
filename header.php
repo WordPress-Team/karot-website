@@ -42,11 +42,13 @@
     <!-- Start featurette heading -->
 
     <div class="row featurette2">
-      <div class="col-md-7">
+      <div class="col-md-72">
 
       <a href="#"> <img  class ="karotLogo-img"src="http://karotwebsite.local/wp-content/uploads/2022/09/karot-logo.png" alt="" height="95px" width="95px"></a>
 
-        <h1 class="h3y">Karot <br> <p class="pg">Saving Smart</p><h1>
+      
+      <h1 class="h3y">Karot <br> <p class="pg">Saving Smart</p><h2 class="heading2"> Budget made easier for you </h2><h1>
+        
         <p class="here">Lörem ipsum kat töskap och rekrov: diledes. Ore spev. Belig visaska. Nälig. Spelar dagen sudoku renas. </p>
 
         <div class="button-box">
@@ -54,14 +56,10 @@
         <a href= "#"><button class="button2">Learn More</button></a> 
         </div>
 
-
-        <!-- <h2 class="featurette-heading2">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2> -->
         
       </div>
       <div class="col-md-5 navbarbg-box">
-
       <img src="http://karotwebsite.local/wp-content/uploads/2022/09/hero-mage.png" alt="hero image">
-
       </div>
     </div>
  

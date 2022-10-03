@@ -3,8 +3,6 @@
     <div class="row featurette2">
       <div class="col-md-72">
 
-      <a href="#"> <img  class ="karotLogo-img"src="http://karotwebsite.local/wp-content/uploads/2022/09/karot-logo.png" alt="" height="95px" width="95px"></a>
-
       
       <h1 class="h3y">Karot <br> <p class="pg">Saving Smart</p><h2 class="heading2"> Budget made easier for you </h2><h1>
         
@@ -18,7 +16,7 @@
         
       </div>
       <div class="col-md-5 navbarbg-box">
-      <img src="http://localhost:10028/wp-content/uploads/2022/09/hero-mage.png" alt="hero image">
+      <img src="http://karot-website2.local/wp-content/uploads/2022/09/hero-mage.png" alt="hero image">
       </div>
     </div>
  

@@ -16,7 +16,7 @@
         
       </div>
       <div class="col-md-5 navbarbg-box">
-      <img src="http://karot-website2.local/wp-content/uploads/2022/09/hero-mage.png" alt="hero image">
+      <img src="http://localhost:10028/wp-content/uploads/2022/09/hero-mage.png" alt="hero image">
       </div>
     </div>
  

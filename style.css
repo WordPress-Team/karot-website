@@ -621,18 +621,51 @@ textarea {
 --------------------------------------------- */
 .site-header {
   height: 60px;
-  width: 100%;
+  width: 80%;
   background-color: #eedbff00;
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 1;
+  display: flex;
 }
-.site-header .site-branding {
+.site-header .nav-branding {
+  display: flex;
+  width: 100%;
+}
+.site-header .nav-branding .site-branding {
   float: left;
-  margin: 5px 15px;
-  height: 50px;
-  width: 50px;
+  margin: 18px 0 0 41px;
+}
+.site-header .nav-branding .site-branding img {
+  height: 115px;
+  width: 120px;
   border-radius: 16px;
+}
+.site-header .nav-branding .navCopy {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  text-align: center;
+  margin: 40px;
+}
+.site-header .nav-branding .navCopy p {
+  margin: 0;
+}
+.site-header .nav-branding .navCopy .nav-title {
+  font-family: "Sukhumvit Set";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 66.6259px;
+  line-height: 30px;
+  letter-spacing: 8.32824px;
+}
+.site-header .nav-branding .navCopy .nav-tagline {
+  font-family: "Sukhumvit Set";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 70px;
+  letter-spacing: 8.32824px;
 }
 
 .main-navigation {
@@ -1743,6 +1776,22 @@ Custom media queries
   letter-spacing: -0.05rem;
 }
 
+.row.featurette2 {
+  margin-bottom: -15%;
+}
+.row.featurette2 .col-md-72 {
+  padding: 15% 0;
+}
+
+.navbarbg-box img {
+  height: 50vw;
+  width: 58.3vw;
+  border-radius: 20px 0px;
+  position: absolute;
+  z-index: -2;
+  right: 0;
+}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 @media (min-width: 40em) {
@@ -1772,9 +1821,10 @@ Custom media queries
 .navbarbg-box img {
   height: 45vw;
   width: 58.1vw;
-  border-radius: 20px;
+  border-radius: 20px 0px;
   position: absolute;
   z-index: -2;
+  right: 0;
 }
 
 /* nav css starts here */
@@ -1823,8 +1873,8 @@ Custom media queries
   margin-right: 20px;
   margin-left: 20px;
   margin-top: 20px;
+  width: 235px;
   height: 72px;
-  width: 200px;
   border-radius: 29px;
   background: linear-gradient(141.16deg, #2383C9 7.97%, #5A1E70 138.18%);
   font-family: Raleway;
@@ -1838,18 +1888,18 @@ Custom media queries
 }
 
 .button2 {
+  width: 235px;
   height: 72px;
-  width: 200px;
-  top: 5px;
+  padding: 13px 0;
   border-radius: 29px;
-  font-family: Raleway;
-  font-size: 1.4vw;
+  font-family: "Raleway";
+  font-style: normal;
   font-weight: 600;
-  line-height: 42px;
+  font-size: 28px;
+  line-height: 150%;
   letter-spacing: 0.081em;
-  text-align: center;
   background-color: #ffffff;
-  border: 1px solid #2383c9;
+  border: 3px solid #2383c9;
   color: linear-gradient(141.16deg, #112736 7.97%, #AE47D2 138.18%);
   cursor: pointer;
 }
@@ -1884,8 +1934,8 @@ Custom media queries
     margin-right: 20px;
     margin-left: 20px;
     margin-top: 20px;
+    width: 235px;
     height: 72px;
-    width: 200px;
     border-radius: 29px;
     background: linear-gradient(141.16deg, #2383C9 7.97%, #5A1E70 138.18%);
     font-family: Raleway;
@@ -1899,18 +1949,18 @@ Custom media queries
   }
 
   .button2 {
+    width: 235px;
     height: 72px;
-    width: 200px;
-    top: 5px;
+    padding: 13px 0;
     border-radius: 29px;
-    font-family: Raleway;
-    font-size: 3.4vw;
+    font-family: "Raleway";
+    font-style: normal;
     font-weight: 600;
-    line-height: 42px;
+    font-size: 28px;
+    line-height: 150%;
     letter-spacing: 0.081em;
-    text-align: center;
     background-color: #ffffff;
-    border: 1px solid #2383c9;
+    border: 3px solid #2383c9;
     color: linear-gradient(141.16deg, #112736 7.97%, #AE47D2 138.18%);
     cursor: pointer;
   }
@@ -1925,9 +1975,10 @@ Custom media queries
   .navbarbg-box img {
     height: 100vw;
     width: 100vw;
-    border-radius: 20px;
+    border-radius: 20px 0px;
     position: absolute;
     z-index: -2;
+    right: 0;
   }
 }
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
@@ -1986,8 +2037,8 @@ Custom media queries
     margin-right: 20px;
     margin-left: 20px;
     margin-top: 20px;
+    width: 235px;
     height: 72px;
-    width: 200px;
     border-radius: 29px;
     background: linear-gradient(141.16deg, #2383C9 7.97%, #5A1E70 138.18%);
     font-family: Raleway;
@@ -2001,18 +2052,18 @@ Custom media queries
   }
 
   .button2 {
+    width: 235px;
     height: 72px;
-    width: 200px;
-    top: 5px;
+    padding: 13px 0;
     border-radius: 29px;
-    font-family: Raleway;
-    font-size: 2.4vw;
+    font-family: "Raleway";
+    font-style: normal;
     font-weight: 600;
-    line-height: 42px;
+    font-size: 28px;
+    line-height: 150%;
     letter-spacing: 0.081em;
-    text-align: center;
     background-color: #ffffff;
-    border: 1px solid #2383c9;
+    border: 3px solid #2383c9;
     color: linear-gradient(141.16deg, #112736 7.97%, #AE47D2 138.18%);
     cursor: pointer;
   }
@@ -2028,9 +2079,10 @@ Custom media queries
   .navbarbg-box img {
     height: 100vw;
     width: 100vw;
-    border-radius: 20px;
+    border-radius: 20px 0px;
     position: absolute;
     z-index: -2;
+    right: 0;
   }
 }
 /* Large devices (desktops, 960px and up) */
@@ -2088,8 +2140,8 @@ Custom media queries
     margin-right: 20px;
     margin-left: 20px;
     margin-top: 20px;
+    width: 235px;
     height: 72px;
-    width: 200px;
     border-radius: 29px;
     background: linear-gradient(141.16deg, #2383C9 7.97%, #5A1E70 138.18%);
     font-family: Raleway;
@@ -2103,18 +2155,18 @@ Custom media queries
   }
 
   .button2 {
+    width: 235px;
     height: 72px;
-    width: 200px;
-    top: 5px;
+    padding: 13px 0;
     border-radius: 29px;
-    font-family: Raleway;
-    font-size: 2.4vw;
+    font-family: "Raleway";
+    font-style: normal;
     font-weight: 600;
-    line-height: 42px;
+    font-size: 28px;
+    line-height: 150%;
     letter-spacing: 0.081em;
-    text-align: center;
     background-color: #ffffff;
-    border: 1px solid #2383c9;
+    border: 3px solid #2383c9;
     color: linear-gradient(141.16deg, #112736 7.97%, #AE47D2 138.18%);
     cursor: pointer;
   }
@@ -2130,9 +2182,10 @@ Custom media queries
   .navbarbg-box img {
     height: 100vw;
     width: 100vw;
-    border-radius: 20px;
+    border-radius: 20px 0px;
     position: absolute;
     z-index: -2;
+    right: 0;
   }
 }
 /* Extra large devices (large desktops, 1240px and up) */
@@ -2190,8 +2243,8 @@ Custom media queries
     margin-right: 20px;
     margin-left: 20px;
     margin-top: 50px;
+    width: 235px;
     height: 72px;
-    width: 200px;
     border-radius: 29px;
     background: linear-gradient(141.16deg, #2383C9 7.97%, #5A1E70 138.18%);
     font-family: Raleway;
@@ -2205,18 +2258,17 @@ Custom media queries
   }
 
   .button2 {
+    width: 235px;
     height: 72px;
-    width: 200px;
-    top: 5px;
+    padding: 13px 0;
     border-radius: 29px;
-    font-family: Raleway;
-    font-size: 1.5vw;
+    font-family: "Raleway";
+    font-style: normal;
     font-weight: 600;
-    line-height: 42px;
+    font-size: 28px;
+    line-height: 150%;
     letter-spacing: 0.081em;
-    text-align: center;
-    background-color: #ffffff;
-    border: 1px solid #2383c9;
+    border: 3px solid #2383c9;
     color: linear-gradient(141.16deg, #112736 7.97%, #AE47D2 138.18%);
     cursor: pointer;
   }
@@ -2232,9 +2284,10 @@ Custom media queries
   .navbarbg-box img {
     height: 55.3vw;
     width: 58.3vw;
-    border-radius: 20px;
+    border-radius: 20px 0px;
     position: absolute;
     z-index: -2;
+    right: 0;
   }
 }
 /* Media

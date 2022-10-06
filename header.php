@@ -29,15 +29,21 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'karot-website' ); ?></a>
 
-	<header id="masthead" class="site-header">
-		<div class="site-branding">
-			<?php
-			the_custom_logo();
- 
-			?>
-      
-				
-		</div><!-- .site-branding -->
+	<header id="masthead"  class="site-header">
+		<div class="nav-branding">
+			<div class="site-branding">
+				<?php
+				the_custom_logo();
+	
+				?>	
+			</div><!-- .site-branding -->
+			<div class="navCopy">
+					<p class="nav-title">Karot</p>
+					<p class="nav-tagline">Saving Smart.</p>
+			</div>
+		</div>
+
+			
     <nav id="site-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">&#9776;</button>
 			<?php
@@ -49,6 +55,6 @@
 			);
 			?>
 		</nav><!-- #site-navigation -->
-		
 
 	</header><!-- #masthead -->
+	

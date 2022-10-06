@@ -1,19 +1,53 @@
 .site-header{
     height: 60px;
-    width: 100%;
+    width: 80%;
     background-color: #eedbff00;
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 1; 
-	// Logo below
-	.site-branding{
-		float: left;
-		margin: 5px 15px;
-		height:50px;
-		width:50px;
-		border-radius: 16px;
+	display: flex;
+	.nav-branding{
+		display: flex;
+		width: 100%;
+		// Logo below
+		.site-branding{
+			float: left;
+			margin: 18px 0 0 41px;
+			img{
+				height: 115px;
+				width: 120px;
+    			border-radius: 16px;
+			}
+		}
+		.navCopy {
+			display: flex;
+			flex-direction: column;
+			width: auto;
+			text-align: center;
+			margin: 40px;
+			p{
+				margin: 0;
+			}
+			.nav-title{
+				font-family: 'Sukhumvit Set';
+    			font-style: normal;
+    			font-weight: 500;
+    			font-size: 66.6259px;
+    			line-height: 30px;
+				letter-spacing: 8.32824px;
+			}
+			.nav-tagline {
+				font-family: 'Sukhumvit Set';
+				font-style: normal;
+				font-weight: 300;
+				font-size: 20px;
+				line-height: 70px;
+				letter-spacing: 8.32824px;
+			}
+		}
 	}
 }
+
 .main-navigation {
 	display: block;
 	width: 100%;
